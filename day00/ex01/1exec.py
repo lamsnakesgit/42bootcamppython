@@ -10,6 +10,7 @@ n = len(sys.argv) - 1
 while n > 0:
 	s = sys.argv[n]
 	s = reversecase(s)
+	# print(s, end="--\n")
 	if n != 1:
 		print(s, end=' ')
 	n -= 1
