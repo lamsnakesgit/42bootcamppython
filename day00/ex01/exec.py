@@ -9,10 +9,11 @@ def reversecase(s):
 n = len(sys.argv) - 1
 # s = sys.argv[n]#input()
 # output = 
-while n > 1:
-	s = s[::-1]
+while n > 0:
+	s = sys.argv[n]
+	s = reversecase(s)
 	# print(s, end="--\n")
 	if n != 1:
 		print(s, end=' ')
 	n -= 1
-print()
+print(s)
