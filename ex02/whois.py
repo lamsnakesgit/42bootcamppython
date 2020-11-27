@@ -1,6 +1,8 @@
 import sys
 import re
 
+# isinstance might be used
+
 if len(sys.argv) < 2:
     exit()
 
