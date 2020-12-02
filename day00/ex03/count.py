@@ -1,3 +1,4 @@
+import sys
 from string import punctuation
 
 def text_analyzer(s=None):
@@ -15,5 +16,8 @@ def text_analyzer(s=None):
     print("- " + str(space) + " spaces")
     print(s)
 
-#text_analyzer(input())
+try:
+    text_analyzer("", "2")
+except TypeError:#text_analyzer()
+    print("ERROR - 1 argument needed!")
 
