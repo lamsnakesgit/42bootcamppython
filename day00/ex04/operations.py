@@ -5,6 +5,7 @@ def operations():
     if len(nums) == 2:
         print('Sum:' '%9s' % f"{nums[0]+nums[1]}")
         print('Difference:' '%2s' % f"{nums[0]-nums[1]}")
+        print('Product:' '%8s' % f"{nums[0]*nums[1]}")
         print('Product:'.ljust(12 + 2) + f'{nums[0]*nums[1]}')
         #print('Quotient:ii' '{:<15}'.format("quot:")  f'{nums[0]+nums[1]}')
         print(f'{"Quotient:":<15}' + f'{nums[0]/nums[1]}')
